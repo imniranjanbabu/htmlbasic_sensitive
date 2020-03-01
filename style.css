@@ -7,7 +7,7 @@ body{
     height: 80px;
 }
 
-.header .header-block{
+.header-block{
     width: 1000px;
     background: greenyellow;
 
@@ -57,15 +57,22 @@ body{
 
 
 .slider{
-    background: blue;
     height: 350px;
 
 }
 
-.slider .slider-block{
+.slider-block{
     width: 1000px;
+    height: 350px;
     background: hotpink;
     margin: 0 auto;
+    text-align: center;
+    background-image: url(https://placeimg.com/1000/350/nature);
+    background-repeat: no-repeat;
+    color: black;
+}
+.slider-block h3{
+    padding-top: 150px;
 }
 
 .content{
@@ -73,7 +80,7 @@ body{
     height: 300px;
 }
 
-.content .content-block{
+.content-block{
     width: 1000px;
     background: khaki;
     margin: 0 auto;
@@ -85,7 +92,7 @@ body{
     height: 50px;
 }
 
-.footer .footer-block{
+.footer-block{
     width: 1000px;
     background: lawngreen;
     margin: 0 auto;
