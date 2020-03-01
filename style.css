@@ -35,6 +35,11 @@ body{
     
 }
 
+.logo h1{
+    font-family: 'Lobster' ;
+
+}
+
 .menu{
     width: 600px;
     float: left;
