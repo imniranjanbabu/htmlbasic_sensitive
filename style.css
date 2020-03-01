@@ -136,13 +136,20 @@ body{
 }
 
 .footer{
-    background: grey;
+    background: rgb(121, 117, 117);
     height: 50px;
 }
 
 .footer-block{
     width: 1000px;
-    background: lawngreen;
     margin: 0 auto;
+    text-align: center;
+    margin-top: 5px;
 
+}
+
+.footer-block p{
+    font-size: 14px;
+    color: ivory;
+    font-weight: 100;
 }
