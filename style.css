@@ -76,8 +76,7 @@ body{
 }
 
 .content{
-    background: green;
-    height: 300px;
+    height: 350px;
 }
 
 .content-block{
@@ -85,6 +84,55 @@ body{
     background: khaki;
     margin: 0 auto;
 
+}
+
+.card{
+    width: 320px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.card:nth-child(3){
+    margin-right: 0;
+}
+
+.card-content{
+    text-align: center;
+}
+
+.card-content button{
+    border: 0;
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    background: brown;
+    color: cornsilk;
+    text-transform: uppercase;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.card-content button:focus{
+    outline: none;
+}
+
+.card-content  button:hover{
+    background: sandybrown;
+    color: black;
+}
+
+.card-content h4{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+
+}
+
+.card-content p{
+    color: gray;
+    font-weight: 100;
+    font-size: 12px;
 }
 
 .footer{
