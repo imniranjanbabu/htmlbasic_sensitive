@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+}
+
+.header{
+    
+    height: 80px;
+}
+
+.header .header-block{
+    width: 1000px;
+    background: greenyellow;
+
+    /* margin: 200px;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+
+    top right bottom left;
+    margin: 0 200px 0 200px;
+
+    top-bottom  left-right
+    margin: 0 200px; */
+
+
+    margin: 0 auto;
+}
+
+.logo{
+    width: 200px;
+    float: left;
+    
+}
+
+.menu{
+    width: 600px;
+    float: left;
+}
+
+.menu ul{
+    padding-top: 20px;
+}
+
+.menu ul li{
+    list-style-type: none;
+    float: left;
+    margin: 0 20px;
+}
+
+.social-media{
+    width: 200px;
+    float: left;
+}
+
+
+.slider{
+    background: blue;
+    height: 350px;
+
+}
+
+.slider .slider-block{
+    width: 1000px;
+    background: hotpink;
+    margin: 0 auto;
+}
+
+.content{
+    background: green;
+    height: 300px;
+}
+
+.content .content-block{
+    width: 1000px;
+    background: khaki;
+    margin: 0 auto;
+
+}
+
+.footer{
+    background: grey;
+    height: 50px;
+}
+
+.footer .footer-block{
+    width: 1000px;
+    background: lawngreen;
+    margin: 0 auto;
+
+}
